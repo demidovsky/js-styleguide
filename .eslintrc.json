@@ -34,6 +34,7 @@
     "semi": [2, "always"],
     "camelcase": 2,
     "quotes": [1, "single", "avoid-escape"],
+    "no-template-curly-in-string": "error",
     "no-undef": 2,
     "no-case-declarations": 2,
     "no-return-assign": 2,
