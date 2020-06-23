@@ -17,6 +17,9 @@
     "plugin:import/warnings",
     "plugin:promise/recommended"
   ],
+  "parserOptions": {
+    "ecmaVersion": 9
+  },
   "settings": {
     "import/resolver": {
       "webpack": {
@@ -52,10 +55,13 @@
     "array-bracket-spacing": [2, "never"],
     "computed-property-spacing": [2, "never"],
     "arrow-spacing": 2,
+    "dot-notation": "error",
+    "quote-props": ["error", "as-needed"],
 
     "complexity": ["warn", 7],
     "indent": ["warn", 2, { "SwitchCase": 1 }],
     "import/order": "warn",
+    "space-before-function-paren": "warn",
     
     "react/prefer-es6-class": 2,
     "react/no-array-index-key": [2],
@@ -86,7 +92,6 @@
     "react/forbid-component-props": "off",
 
     "no-console": "off",
-    "template-curly-spacing": "off",
-    "space-before-function-paren": "off"
+    "template-curly-spacing": "off"
   }
 }
